@@ -6,24 +6,9 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		A864CFED1D18939D009AAC35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A864CFEC1D18939D009AAC35 /* AppDelegate.swift */; };
-		A864CFEF1D18939D009AAC35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A864CFEE1D18939D009AAC35 /* ViewController.swift */; };
-		A864CFF21D18939D009AAC35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A864CFF01D18939D009AAC35 /* Main.storyboard */; };
-		A864CFF51D18939D009AAC35 /* Velocimetro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A864CFF31D18939D009AAC35 /* Velocimetro.xcdatamodeld */; };
-		A864CFF71D18939D009AAC35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A864CFF61D18939D009AAC35 /* Assets.xcassets */; };
-		A864CFFA1D18939D009AAC35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A864CFF81D18939D009AAC35 /* LaunchScreen.storyboard */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		A864CFE91D18939C009AAC35 /* Velocimetro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Velocimetro.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A864CFEC1D18939D009AAC35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A864CFEE1D18939D009AAC35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A864CFF11D18939D009AAC35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A864CFF41D18939D009AAC35 /* Velocimetro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Velocimetro.xcdatamodel; sourceTree = "<group>"; };
-		A864CFF61D18939D009AAC35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A864CFF91D18939D009AAC35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A864CFFB1D18939D009AAC35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A864CFE91D18939C009AAC35 /* Velocimetro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Velocimetro.app; path = "/Users/antonik/Documents/curso_tec/curso_swift/semana4/Velocimetro/build/Debug-iphoneos/Velocimetro.app"; sourceTree = "<absolute>"; };
+		A864D0011D1893E8009AAC35 /* Velocidades.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Velocidades.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,28 +26,13 @@
 			isa = PBXGroup;
 			children = (
 				A864CFEB1D18939D009AAC35 /* Velocimetro */,
-				A864CFEA1D18939C009AAC35 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		A864CFEA1D18939C009AAC35 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A864CFE91D18939C009AAC35 /* Velocimetro.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		A864CFEB1D18939D009AAC35 /* Velocimetro */ = {
 			isa = PBXGroup;
 			children = (
-				A864CFEC1D18939D009AAC35 /* AppDelegate.swift */,
-				A864CFEE1D18939D009AAC35 /* ViewController.swift */,
-				A864CFF01D18939D009AAC35 /* Main.storyboard */,
-				A864CFF61D18939D009AAC35 /* Assets.xcassets */,
-				A864CFF81D18939D009AAC35 /* LaunchScreen.storyboard */,
-				A864CFFB1D18939D009AAC35 /* Info.plist */,
-				A864CFF31D18939D009AAC35 /* Velocimetro.xcdatamodeld */,
+				A864D0011D1893E8009AAC35 /* Velocidades.playground */,
 			);
 			path = Velocimetro;
 			sourceTree = "<group>";
@@ -111,7 +81,7 @@
 				Base,
 			);
 			mainGroup = A864CFE01D18939B009AAC35;
-			productRefGroup = A864CFEA1D18939C009AAC35 /* Products */;
+			productRefGroup = A864CFE01D18939B009AAC35;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -125,9 +95,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A864CFFA1D18939D009AAC35 /* LaunchScreen.storyboard in Resources */,
-				A864CFF71D18939D009AAC35 /* Assets.xcassets in Resources */,
-				A864CFF21D18939D009AAC35 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +105,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A864CFEF1D18939D009AAC35 /* ViewController.swift in Sources */,
-				A864CFED1D18939D009AAC35 /* AppDelegate.swift in Sources */,
-				A864CFF51D18939D009AAC35 /* Velocimetro.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		A864CFF01D18939D009AAC35 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A864CFF11D18939D009AAC35 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A864CFF81D18939D009AAC35 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A864CFF91D18939D009AAC35 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A864CFFC1D18939D009AAC35 /* Debug */ = {
@@ -294,19 +239,6 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		A864CFF31D18939D009AAC35 /* Velocimetro.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				A864CFF41D18939D009AAC35 /* Velocimetro.xcdatamodel */,
-			);
-			currentVersion = A864CFF41D18939D009AAC35 /* Velocimetro.xcdatamodel */;
-			path = Velocimetro.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = A864CFE11D18939B009AAC35 /* Project object */;
 }
